@@ -1,0 +1,11 @@
+$main-color: gray;
+$secondary-color: cyan;
+
+//crear un mapa
+$font-weights:("regular": 400, "medium": 500, "bold": 700);
+
+@each $name, $weigth in $font-weights{
+    .font-weight-#{$name}{
+        font-weight: $weigth;
+    }
+}
