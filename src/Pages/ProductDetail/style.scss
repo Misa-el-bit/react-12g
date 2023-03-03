@@ -1,0 +1,19 @@
+.card{
+    .cover{
+        height: 40vh;
+        width: 100%;
+        background-color: lightgray;
+        background-size: cover;
+        background-position: center;
+        .img-preview{
+            position: absolute;
+            width: 50vw;
+            height: 50vh;
+            top: 10vw;
+            left: 15vw;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}

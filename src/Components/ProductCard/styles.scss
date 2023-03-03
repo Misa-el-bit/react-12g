@@ -1,0 +1,9 @@
+.product-card{
+    &:hover{
+        box-shadow: 5px 5px 5px #ddd;
+        cursor: pointer;
+    }
+    .card-img{
+        height:22rem;
+    }
+}
